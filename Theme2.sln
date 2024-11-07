@@ -23,7 +23,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncProgram", "AsyncProgra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncForm", "AsyncForm\AsyncForm.csproj", "{259B0719-1DB0-4E26-B980-5156FB5E48C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMI", "WMI\WMI.csproj", "{EB30DD4E-AEF5-44E7-9E2C-1CE55CA78C42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WMI", "WMI\WMI.csproj", "{EB30DD4E-AEF5-44E7-9E2C-1CE55CA78C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistryProject", "RegistryProject\RegistryProject.csproj", "{724A667D-FA5E-4EAF-A51A-55C6F2E7F002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeUp", "WakeUp\WakeUp.csproj", "{4295327D-B8B2-41CA-B6B7-3BEE96DD59D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{EB30DD4E-AEF5-44E7-9E2C-1CE55CA78C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB30DD4E-AEF5-44E7-9E2C-1CE55CA78C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB30DD4E-AEF5-44E7-9E2C-1CE55CA78C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724A667D-FA5E-4EAF-A51A-55C6F2E7F002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724A667D-FA5E-4EAF-A51A-55C6F2E7F002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724A667D-FA5E-4EAF-A51A-55C6F2E7F002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724A667D-FA5E-4EAF-A51A-55C6F2E7F002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4295327D-B8B2-41CA-B6B7-3BEE96DD59D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4295327D-B8B2-41CA-B6B7-3BEE96DD59D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4295327D-B8B2-41CA-B6B7-3BEE96DD59D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4295327D-B8B2-41CA-B6B7-3BEE96DD59D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

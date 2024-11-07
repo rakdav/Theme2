@@ -16,19 +16,21 @@ namespace WMI.Samples
             ManagementEventWatcher watcher = new ManagementEventWatcher(wmiQuery);
             watcher.EventArrived += new EventArrivedEventHandler(USBRemoved);
             watcher.Start();
+            Console.WriteLine("Извлеките устройство");
             Console.ReadLine();
             watcher.Stop();
         }
         private void USBRemoved(object sender,EventArrivedEventArgs e)
         {
+            
             ManagementBaseObject instance = (ManagementBaseObject)e.NewEvent["TargetInstance"];
             string deviceID = (string)instance["DeviceID"];
             string pnpDeviceID = (string)instance["PNPDeviceID"];
             string description = (string)instance["Description"];
-            var mes = "USB device removed:" +
+            var mes = "USB device removed:\n" +
                 "DeviceID=" + deviceID +
-                "PNPDeviceID" + pnpDeviceID +
-                "Description" + description;
+                "\nPNPDeviceID=" + pnpDeviceID +
+                "\nDescription=" + description;
             Console.WriteLine(mes);
         }
     }
